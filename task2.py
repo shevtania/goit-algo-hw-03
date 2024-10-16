@@ -1,7 +1,7 @@
 import random
 
 def get_numbers_ticket(min, max, quantity):
-    seq = set()  #sequence for saving numbers for uniq values
+    seq = set()  #sequence for saving numbers for unique values
     result = []
      
     if min < 1 or max > 1000  or (min > max): # verification max and min numbers 
